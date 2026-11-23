@@ -145,3 +145,61 @@ footer {
     display: block;
     margin: 10px auto;
 }
+
+.games-section {
+  background: linear-gradient(135deg, #25134c, #5431a8);
+  padding: 45px 20px;
+}
+
+.game-box {
+  max-width: 650px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #ffcf24;
+  color: #24134c;
+  border: 5px solid white;
+  border-radius: 22px;
+  text-align: center;
+}
+
+.game-box h3 {
+  margin-bottom: 15px;
+}
+
+#arena {
+  height: 250px;
+  background: #291d63;
+  border: 4px solid white;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+#target {
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  font-size: 30px;
+  border: none;
+  background: #ffcf24;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+}
+
+.game-box button {
+  background: #e94b32;
+  color: white;
+  border: 0;
+  padding: 13px 22px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 8px;
+}
+
+#answers button {
+  background: #5730bd;
+}
