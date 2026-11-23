@@ -61,6 +61,29 @@
   <p>Updates, events and everything happening in Brawl Stars.</p>
 </section>
 
+<section id="games" class="games-section">
+  <h2>🎮 PLAY OUR MINI GAMES</h2>
+
+  <div class="game-box">
+    <h3>⚔️ MINI BATTLE ARENA</h3>
+    <p>Click the moving targets to earn points!</p>
+    <div id="arena">
+      <button id="target">⭐</button>
+    </div>
+    <p>Score: <span id="arenaScore">0</span></p>
+    <p>Time: <span id="arenaTime">30</span>s</p>
+    <button onclick="startArena()">START GAME</button>
+  </div>
+
+  <div class="game-box">
+    <h3>⭐ GUESS THE BRAWLER</h3>
+    <p id="brawlerQuestion">Press START to play!</p>
+    <div id="answers"></div>
+    <p>Score: <span id="guessScore">0</span></p>
+    <button onclick="startGuess()">START CHALLENGE</button>
+  </div>
+</section>
+
 <footer>
   <p>Fan-made Brawl Stars website. Not affiliated with Supercell.</p>
 </footer>
